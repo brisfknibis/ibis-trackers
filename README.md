@@ -56,4 +56,5 @@ After turning your tracker on, it should appear in the SlimeVR server. From here
 
 If you need to re-pair your tracker(s), follow the docs [here](https://docs.shinebright.dev/diy/smol-slime.html#pairing-mode).
 
-Enjoy!
+> [!TIP]
+> Enjoy! ;)
