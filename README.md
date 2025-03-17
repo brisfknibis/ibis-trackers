@@ -58,3 +58,7 @@ If you need to re-pair your tracker(s), follow the docs [here](https://docs.shin
 
 > [!TIP]
 > Enjoy! ;)
+
+##### Credits
+
+Special thanks to ManicQuinn for their hard work on the[ Gremlin Tracker](https://github.com/ManicQuinn/SlimeVR-Gremlin). My case design uses a lot of their sizing for 3D printing on the inside. The style of Ibis Trackers is based on a Philosophy that they should be strong, relaible, simple, and easy to make. The exterior is heavily inspired by [Cheesecakes](https://github.com/Sorakage033/SlimeVR-CheeseCake) by Sorakage033. Thanks to everyone who purchased my trackers, and everyone who helped me along the way!
