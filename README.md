@@ -19,7 +19,7 @@ You're welcome to make your own version, otherwise you can purchase pre-made Ibi
 
 | Component | Variation | Link |
 | --- | --- | --- |
-| Nice!Nano Supermini | Alternative | [AliExpress](https://www.aliexpress.com/item/1005007738886550.htm) |
+| Nice!Nano Supermini | Alternative | [AliExpress](https://www.aliexpress.com/item/1005007738886550.html) |
 | 2 pin Tactile Button (2mm height) | 2.5mm Button (requires Modifying Lid) | [AliExpress](https://www.aliexpress.com/item/1005001302607169.html) |
 | 401230 3.7V 110 mAh Battery | Any similar sized LiPo battery | [AliExpress](https://www.aliexpress.com/item/1005006016397268.html) |
 | KOUNOLAB Module ICM-45686 + Mag | LSM6DSR (cheaper) | [Meia's IMU's](https://store.kouno.xyz/) |
