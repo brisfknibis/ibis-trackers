@@ -1,7 +1,7 @@
 # Path to your firmware file
 # $firmwarePath = "D:\STL Files\Bris Trackers\Firmware\SellSPI30MinSensCal.uf2"
 # $firmwarePath = "D:\STL Files\Bris Trackers\Firmware\SPI.uf2"
-$firmwarePath = "D:\STL Files\Bris Trackers\Firmware\SPI-2.uf2"
+$firmwarePath = "D:\STL Files\Bris Trackers\Firmware\SPI1-Side.uf2"
 # $firmwarePath = "D:\STL Files\Bris Trackers\Firmware\update-nice_nano_bootloader-0.9.2_nosd.uf2"
 
 # Target volume label of the NiceNano
