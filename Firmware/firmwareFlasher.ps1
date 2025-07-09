@@ -1,5 +1,5 @@
 # Path to your firmware file
-$firmwarePath = "D:\STL Files\Bris Trackers\Firmware\SPI1-Side.uf2"
+$firmwarePath = "D:\STL Files\Bris Trackers\Firmware\SlimeNRF_Tracker_NoSleep_SPI_StackedSmol.uf2"
 
 # List of valid volume labels
 $targetLabels = @("SLIMENRFTRK")
