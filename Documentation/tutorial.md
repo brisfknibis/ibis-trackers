@@ -39,7 +39,7 @@ The IMU will most likely come in rows of 5, and will have some little defects we
 <img src="../Images/process/imus.jpg">
 <sub>LSM6DSR IMU modules joined still from factory.</sub>
 
-<img src="../Images/process/imus-back-kapton-tape.jpg">
+<img src="../Images/process/imus-back-kapton-tape.jpg" width="300">
 <sub>Add kapton tape to the back of the IMU’s, aligning the tape so the pins can still touch the side of the Module.</sub>
 
 <img src="../Images/process/imus-back-kapton-tape-2.jpg">
