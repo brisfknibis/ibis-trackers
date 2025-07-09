@@ -1,33 +1,32 @@
 # How to make an Ibis Tracker (Stacked Smol Slimes: SlimeVR Compatible NRF Trackers)
 
-<img src="../Images/process/raw components.jpg">
-
-Ibis trackers are SlimeVR Compatible full body tracking devices. They are a “Smol” slime, which means they use NRF instead of wifi to connect to your PC. NRF is like bluetooth, but with less lag. To learn more, please visit the SlimeVR Documentation on Smol Slimes.
+> [!NOTE]
+> Ibis trackers are SlimeVR Compatible full body tracking devices. They are a “Smol” slime, which means they use NRF instead of wifi to connect to your PC. NRF is like bluetooth, but with less lag. To learn more, please visit the SlimeVR Documentation on Smol Slimes.
 
 Ibis Trackers are completely open source, which means you can build your own if you have the time. They are identical to the product we sell. This guide will show you the process we take for each tracker.
 
-### Parts Required
+## Parts Required
 
 To make your trackers, you’ll need access to a 3D printer. You can also buy the 3D printed parts from us. You’ll also need:
 
-- a Stanley knife (or something very sharp)
-- wire cutters
-- wire strippers
-- kapton tape
-- a fine tip soldering iron specifically for electronics (best if it has temperature control)
-- Solder with Flux
-- other tools you think may make the process easier.
+- [ ] a Stanley knife (or something very sharp)
+- [ ]wire cutters
+- [ ] wire strippers
+- [ ]kapton tape
+- [ ]a fine tip soldering iron specifically for electronics (best if it has temperature control)
+- [ ]Solder with Flux
+- [ ]other tools you think may make the process easier.
 
 ### Tracker Components
 
-Each tracker is made up of a few simple components:
+Each tracker is made up of only a few components:
 
-- IMU Module (ICM-45686 or LSM6DSR)
-- Supermini NRF52840 board OR Seed Studio equivalent
-- 120mAh LiPo battery
-- Small, tactile push button
-- Board pins (should have come with your Supermini)
-- Wire for the antenna mod
+- [ ]IMU Module (ICM-45686 or LSM6DSR)
+- [ ]Supermini NRF52840 board OR Seed Studio equivalent
+- [ ]120mAh LiPo battery
+- [ ]Small, tactile push button
+- [ ]Board pins (should have come with your Supermini)
+- [ ]Wire for the antenna mod
 
 ## Component Preparation
 
@@ -37,47 +36,62 @@ To ensure each component fits correctly and works, there are a few steps we need
 
 The IMU will most likely come in rows of 5, and will have some little defects we want to shave off. Before then, if you still have them connected, you’ll need to add some kapton tape to the back of them. This prevents solder from seeping through onto the supermini board later.
 
+<img src="../Images/process/imus.jpg">
+<sub>LSM6DSR IMU modules joined still from factory.</sub>
+
+<img src="../Images/process/imus-back-kapton-tape.jpg">
+<sub>Add kapton tape to the back of the IMU’s, aligning the tape so the pins can still touch the side of the Module.</sub>
+
+<img src="../Images/process/imus-back-kapton-tape-2.jpg">
+<sub>Cut the excess tape off.</sub>
+
+<img src="../Images/process/imu-kapton-back-split.jpg">
+
+<img src="../Images/process/imus-split-front.jpg">
+
 Once you’ve separated and taped your IMU’s, you’ll want to shave off the excess from the top and bottom. This isn’t a required step, but helps clean them up a bit.
 
-It doesn’t have to be perfect.
+<img src="../Images/process/imu-prep-unprepped.jpg">
+<sub>Left: Shaved/cleaned up IMU vs right</sub>
 
-### Pre-Soldering The IMU
+#### Pre-Soldering The IMU
 
 This step is as far as I can tell, unique to our process. I designed a “Soldering Cube” to help make this process less likely to destroy part of the SuperMini.
 
-You can get a Soldering Cube here. (LINK)
+<img src="../Images/process/soldering-cube-imu.jpg">
+
+(You can get a Soldering Cube here.)[https://github.com/brisfknibis/ibis-trackers/blob/main/3D%20Print%20Models/Solder%20Cube.stl]
 
 Take your pins, and split them in half. You’ll need a row of six:
 
-(IMAGE OF PINS)
 
-(IMAGE OF PINS SPLIT)
+<img src="../Images/process/header-pins.jpg">
+
+<img src="../Images/process/header-pins-split.jpg">
 
 Push the plastic on the 6 pins down towards the bottom. I use a breadboard to push the pins down easily. I also do this on my soldering mat, so they don’t go ALL the way to the bottom. about 1mm at the end is right.
 
-(Image of Pins x6)
+<img src="../Images/process/header-pins-6.jpg">
 
-Place the pins in the soldering cube with the IMU
-
-(image of soldering cube)
+Place the pins in the soldering cube with the IMU.
 
 Tile the cube on the side so we can more easily solder the pins.
 
-(Image of cube on side)
+<img src="../Images/process/soldering-cube-side-split.jpg">
 
 I prefer to solder the left, then the right most pins, then the inner ones. Just a little bit of solder first, then if you want, you can strengthen the connections with a bit more solder.
 
-(Image of semi soldered IMU on cube)
+<img src="../Images/process/soldering-cube-soldered-partial.jpg">
 
-(Image of completed soldered IMU on cube)
+<img src="../Images/process/soldering-cube-soldered.jpg">
 
 Once you’re happy with your joints, I recommend cleaning it with a bit of Isopropyl alchohol or PCB cleaner to remove any flux from the soldering process.
 
-(cleaned IMU soldered on cube)
+<img src="../Images/process/soldering-cube-soldered-clean.jpg">
 
 Remove the IMU from the soldering cube, and snip the pins as close to the plastic as possible. You can attempt the just slide the plastic off, but this risks pulling the pins off of the IMU.
 
-(snipped pins on imu)
+<img src="../Images/process/imu-soldered-cut.jpg">
 
 Now onto the SuperMini!
 
@@ -89,11 +103,11 @@ For the Supermini development board, there are 3 steps to prepare this one. It�
 
 As with the IMU, you’ll want to shave off the excess from the sides of the unit. This is a requirement, otherwise it will not fit inside the case.
 
-(unprepared supermini)
-[SuperMini Module with edges that need to be cleaned up.]
+<img src="../Images/process/supermini-unprepped.jpg">
+<sub>SuperMini Module with edges that need to be cleaned up.</sub>
 
-(Cleaned up supermini)
-[SuperMini NRF52840 with cleaned up edges. I used a Stanley knife for this one.]
+<img src="../Images/process/supermini-prepped.jpg">
+<sub>SuperMini NRF52840 with cleaned up edges. I used a Stanley knife for this one.</sub>
 
 #### Firmware Flashing
 
