@@ -9,10 +9,10 @@ Ibis Trackers are completely open source, which means you can build your own if 
 
 To make your trackers, you’ll need access to a 3D printer. You can also buy the 3D printed parts from us. You’ll also need:
 
-- [ ] Stanley knife (or something very sharp)
+- [ ] Stanley Knife (or something very sharp)
 - [ ] Wire Cutters
 - [ ] Wire Strippers
-- [ ] Kapton tape
+- [ ] Kapton Tape
 - [ ] Fine tip soldering iron specifically for electronics (best if it has temperature control)
 - [ ] Solder Flux
 - [ ] Other tools that may make the process easier
@@ -22,8 +22,8 @@ To make your trackers, you’ll need access to a 3D printer. You can also buy th
 Each tracker is made up of only a few components:
 
 - [ ] IMU Module (ICM-45686 or LSM6DSR)
-- [ ] SuperMini (ProMicro) nRF52840 board or Seeed Studio equivalent
-- [ ] 120mAh LiPo battery
+- [ ] SuperMini (ProMicro) nRF52840 or Seeed Studio equivalent board
+- [ ] 120mAh LiPo Battery
 - [ ] Small, tactile push button
 - [ ] Board pins (should have come with your SuperMini)
 - [ ] Wire for the antenna mod
