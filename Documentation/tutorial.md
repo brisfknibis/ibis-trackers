@@ -36,7 +36,7 @@ To ensure each component fits correctly and works, there are a few steps we need
 
 The IMU will most likely come in rows of 5, and will have some little defects we want to shave off. Before then, if you still have them connected, you’ll need to add some kapton tape to the back of them. This prevents solder from seeping through onto the supermini board later.
 
-![LSM6DSR IMU modules joined still from factory.](../Images/process/imus.jpg | width=500)
+![LSM6DSR IMU modules joined still from factory.](/Images/process/imus.jpg | width=500)
 
 <img src="../Images/process/imus-back-kapton-tape.jpg" alt="Add kapton tape to the back of the IMU’s, aligning the tape so the pins can still touch the side of the Module." style="max-width: 400px;">
 
