@@ -41,58 +41,63 @@ The IMU will most likely come in rows of 5, and will have some little defects we
     alt="LSM6DSR IMU modules joined still from factory." 
     title="LSM6DSR IMU modules joined still from factory."
     width="400">
-<img src="../Images/process/imus-back-kapton-tape.jpg" alt="Add kapton tape to the back of the IMU’s, aligning the tape so the pins can still touch the side of the Module." style="max-width: 400px;">
 
-<img src="../Images/process/imus-back-kapton-tape-2.jpg">
-<sub>Cut the excess tape off.</sub>
+<img 
+    src="../Images/process/imus-back-kapton-tape.jpg"
+    alt="Add kapton tape to the back of the IMU’s, aligning the tape so the pins can still touch the side of the Module."
+    title="Add kapton tape to the back of the IMU’s, aligning the tape so the pins can still touch the side of the Module."
+    width="400"
+    >
 
-<img src="../Images/process/imu-kapton-back-split.jpg">
+<img src="../Images/process/imus-back-kapton-tape-2.jpg" width="400" title="Cut the excess tape off." alt="Cut the excess tape off.">
 
-<img src="../Images/process/imus-split-front.jpg">
+<img src="../Images/process/imu-kapton-back-split.jpg" width="400">
+
+<img src="../Images/process/imus-split-front.jpg" width="400">
 
 Once you’ve separated and taped your IMU’s, you’ll want to shave off the excess from the top and bottom. This isn’t a required step, but helps clean them up a bit.
 
-<img src="../Images/process/imu-prep-unprepped.jpg">
+<img src="../Images/process/imu-prep-unprepped.jpg" width="400">
 <sub>Left: Shaved/cleaned up IMU vs right</sub>
 
 #### Pre-Soldering The IMU
 
 This step is as far as I can tell, unique to our process. I designed a “Soldering Cube” to help make this process less likely to destroy part of the SuperMini.
 
-<img src="../Images/process/soldering-cube-imu.jpg">
+<img src="../Images/process/soldering-cube-imu.jpg" width="400">
 
 (You can get a Soldering Cube here.)[https://github.com/brisfknibis/ibis-trackers/blob/main/3D%20Print%20Models/Solder%20Cube.stl]
 
 Take your pins, and split them in half. You’ll need a row of six:
 
 
-<img src="../Images/process/header-pins.jpg">
+<img src="../Images/process/header-pins.jpg" width="400">
 
-<img src="../Images/process/header-pins-split.jpg">
+<img src="../Images/process/header-pins-split.jpg" width="400">
 
 Push the plastic on the 6 pins down towards the bottom. I use a breadboard to push the pins down easily. I also do this on my soldering mat, so they don’t go ALL the way to the bottom. about 1mm at the end is right.
 
-<img src="../Images/process/header-pins-6.jpg">
+<img src="../Images/process/header-pins-6.jpg" width="400">
 
 Place the pins in the soldering cube with the IMU.
 
 Tile the cube on the side so we can more easily solder the pins.
 
-<img src="../Images/process/soldering-cube-side-split.jpg">
+<img src="../Images/process/soldering-cube-side-split.jpg" width="400">
 
 I prefer to solder the left, then the right most pins, then the inner ones. Just a little bit of solder first, then if you want, you can strengthen the connections with a bit more solder.
 
-<img src="../Images/process/soldering-cube-soldered-partial.jpg">
+<img src="../Images/process/soldering-cube-soldered-partial.jpg" width="400">
 
-<img src="../Images/process/soldering-cube-soldered.jpg">
+<img src="../Images/process/soldering-cube-soldered.jpg" width="400">
 
 Once you’re happy with your joints, I recommend cleaning it with a bit of Isopropyl alchohol or PCB cleaner to remove any flux from the soldering process.
 
-<img src="../Images/process/soldering-cube-soldered-clean.jpg">
+<img src="../Images/process/soldering-cube-soldered-clean.jpg" width="400">
 
 Remove the IMU from the soldering cube, and snip the pins as close to the plastic as possible. You can attempt the just slide the plastic off, but this risks pulling the pins off of the IMU.
 
-<img src="../Images/process/imu-soldered-cut.jpg">
+<img src="../Images/process/imu-soldered-cut.jpg" width="400">
 
 Now onto the SuperMini!
 
@@ -104,12 +109,12 @@ For the Supermini development board, there are 3 steps to prepare this one. It�
 
 As with the IMU, you’ll want to shave off the excess from the sides of the unit. This is a requirement, otherwise it will not fit inside the case.
 
-<img src="../Images/process/supermini-unprepped.jpg">
+<img src="../Images/process/supermini-unprepped.jpg" width="400">
 <sub>SuperMini Module with edges that need to be cleaned up.</sub>
 
 
 
-<img src="../Images/process/supermini-prepped.jpg">
+<img src="../Images/process/supermini-prepped.jpg" width="400">
 <sub>SuperMini NRF52840 with cleaned up edges. I used a Stanley knife for this one.</sub>
 
 
