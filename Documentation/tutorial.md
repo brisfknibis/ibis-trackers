@@ -1,5 +1,7 @@
 # How to make an Ibis Tracker (Stacked Smol Slimes: SlimeVR Compatible NRF Trackers)
 
+<img src="../Images/process/raw components.jpg">
+
 Ibis trackers are SlimeVR Compatible full body tracking devices. They are a “Smol” slime, which means they use NRF instead of wifi to connect to your PC. NRF is like bluetooth, but with less lag. To learn more, please visit the SlimeVR Documentation on Smol Slimes.
 
 Ibis Trackers are completely open source, which means you can build your own if you have the time. They are identical to the product we sell. This guide will show you the process we take for each tracker.
