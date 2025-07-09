@@ -106,8 +106,12 @@ As with the IMU, you’ll want to shave off the excess from the sides of the uni
 <img src="../Images/process/supermini-unprepped.jpg">
 <sub>SuperMini Module with edges that need to be cleaned up.</sub>
 
+
+
 <img src="../Images/process/supermini-prepped.jpg">
 <sub>SuperMini NRF52840 with cleaned up edges. I used a Stanley knife for this one.</sub>
+
+
 
 #### Firmware Flashing
 
