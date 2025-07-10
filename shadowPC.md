@@ -1,6 +1,6 @@
 # 🕹️ Using Smol Slimes with Shadow PC
 
-Smol Slimes use **NRF** chips instead of ESP. They don't use WiFi — they rely on a dedicated **NRF USB receiver** that must be plugged in and forwarded to your **Shadow PC**. To make this work remotely, you’ll use:
+Smol Slimes use **nRF** chips instead of ESP. They don't use Wi-Fi — they rely on a dedicated **nRF USB Receiver** that must be plugged in and forwarded to your **Shadow PC**. To make this work remotely, you’ll use:
 
 - 🛜 [**Tailscale**](https://tailscale.com) – for a secure private network between your local PC and Shadow
 - 🔌 [**VirtualHere**](https://www.virtualhere.com/) – to forward USB devices over that network
@@ -8,7 +8,7 @@ Smol Slimes use **NRF** chips instead of ESP. They don't use WiFi — they rely 
 
 ## Requirements
 
-- Smol Slimes + NRF USB Receiver (whatever came with your Smol Slimes, or which you made yourself)
+- Smol Slimes + nRF USB Receiver (whatever came with your Smol Slimes, or which you made yourself)
 - Shadow PC Account, with SteamVR (and games of your choice)
 - Tailscale (installed on **both PCs**)  
 - VirtualHere USB Server (on your **local PC**)  
@@ -17,14 +17,14 @@ Smol Slimes use **NRF** chips instead of ESP. They don't use WiFi — they rely 
 
 ## ⚙️ Setup Guide
 
-### 1. 🔌 Plug in the NRF Receiver
+### 1. 🔌 Plug in the nRF Receiver
 
-Connect your **NRF receiver** to a USB port on your **local PC**.
+Connect your **nRF receiver** to a USB port on your **local PC**.
 
 ### 2. Install and Set Up Tailscale
 
 - Download Tailscale: [https://tailscale.com/download](https://tailscale.com/download)
-- Install it on **both your local PC and Shadow PC**
+- Install it on **both your local and Shadow PCs**
 - Log into the **same Tailscale account** on both devices
 - On your **local PC**, open Tailscale and copy your **Tailscale IP address**  
 
@@ -43,14 +43,14 @@ Connect your **NRF receiver** to a USB port on your **local PC**.
 
 - Download the USB Client: [https://www.virtualhere.com/usb_client_software](https://www.virtualhere.com/usb_client_software)
 - Open the app
-- Go to: `File → Specify Hubs Manually`
+- Right clicking "USB Hubs" -> Specify Hubs -> Add
 - Paste in your **local PC’s Tailscale IP address**
-- You should now see a list of connected USB devices from your local PC
+- On the Shadow PC, you should now see a list of USB devices forwarded from your local PC
 
 > [!IMPORTANT]
 > If nothing shows up, make sure both machines are online and connected via Tailscale. Try restarting both VirtualHere apps.
 
-### 5. Forward the NRF Receiver
+### 5. Forward the nRF Receiver
 
 - In VirtualHere on **Shadow PC**:
   - Find your receiver (often labeled `SlimeVR Receiver`, `SuperMini Receiver`, or similar)
@@ -62,7 +62,7 @@ Connect your **NRF receiver** to a USB port on your **local PC**.
 ### 6. Launch SlimeVR on Shadow PC
 
 - Open **SlimeVR Server** on your **Shadow PC**
-- Your trackers should start appearing and connecting automatically
+- Your trackers should automatically appear and connect.
 
 > [!NOTE]
 > If trackers don’t appear, try restarting the SlimeVR server after forwarding the device
@@ -82,7 +82,7 @@ Once your trackers connect:
 ## 💡 Tips & Troubleshooting
 
 > ✅ **Free Version Works!**  
-> VirtualHere is **free for one device**, which is perfect for forwarding your single NRF receiver.
+> VirtualHere is **free for one device**, which is perfect for forwarding your single nRF receiver.
 
 > 💻 **Run Everything on Shadow:**  
 > SteamVR, VRChat, SlimeVR — all of it should be opened **only on Shadow PC**, never on your local machine.
@@ -91,7 +91,7 @@ Once your trackers connect:
 > Try the following:
 > - Restart SlimeVR
 > - Re-forward the USB device
-> - Check for NRF receiver driver issues on Shadow PC
+> - Check for nRF receiver driver issues on Shadow PC
 
 > 🔐 **Tailscale not connecting?**  
 > - Make sure both devices show as "Connected" in the Tailscale dashboard
@@ -101,8 +101,8 @@ Once your trackers connect:
 
 ## ✅ You're Good to Go!
 
-You’re now running your SlimeVR NRF trackers entirely on **Shadow PC**, with the NRF receiver being tunneled through **Tailscale** using **VirtualHere**.  
-SlimeVR sees the trackers like they’re plugged in directly — no WiFi, no desync, and no weird configs.
+You’re now running your SlimeVR nRF trackers entirely on **Shadow PC**, with the nRF receiver being tunneled through **Tailscale** using **VirtualHere**.  
+SlimeVR sees the trackers like they’re plugged in directly — no WiFi, no desync, and no unusual configuration required.
 
 Enjoy your full-body tracking!
 
