@@ -13,7 +13,7 @@ Traditionally, SlimeVR trackers connect to the SlimeVR Server via Wi-Fi. Smol Sl
 You're welcome to make your own version, otherwise, you can purchase pre-made Ibis Trackers through my [Ko-Fi store here](https://ko-fi.com/s/f180a946a8).
 
 > [!CAUTION]
-> Smol Slimes are still experimental and they are changing **daily**. Please be patient when setting them up. Take your time, and understand that you will most likely struggle at first. If you need help, join the [SlimeVR Discord](https://discord.gg/2vcdMAtBWe), or [Ibis Trackers Discord](https://discord.gg/djbpK6MW26).
+> Smol Slimes are still experimental and they are changing **daily**. Please be patient when setting them up. Take your time, and understand that you will most likely struggle at first. If you need help, join the [SlimeVR Discord](https://discord.gg/2vcdMAtBWe), or [Ibis Trackers Discord](https://discord.gg/NPgz6GH8).
 
 ### Components
 
