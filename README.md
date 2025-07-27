@@ -21,7 +21,7 @@ You're welcome to make your own version, otherwise, you can purchase pre-made Ib
 | --- | --- | --- |
 | Nice!Nano Supermini | Alternative | [AliExpress](https://www.aliexpress.com/item/1005007738886550.html) |
 | 2 pin Tactile Button (2mm height) | 2.5mm Button (requires Modifying Lid) | [AliExpress](https://www.aliexpress.com/item/1005001302607169.html) |
-| 401230 3.7V 110 mAh Battery | Any similar sized LiPo battery | [AliExpress](https://www.aliexpress.com/item/1005006016397268.html) |
+| 401230 3.7V 110 mAh Battery | Any similar sized LiPo battery | [AliExpress](https://www.aliexpress.com/item/1005006327425971.html) |
 | KOUNOLAB Module ICM-45686 + Mag | LSM6DSR (cheaper) | [Meia's IMU's](https://store.kouno.xyz/) |
 | eByte E104-BT5040U Receiver | Supermini | [Alibaba.com](https://www.alibaba.com/product-detail/Ebyte-E104-BT5040U-nRF52840-BLE4-2_1600122746292.html) |
 | 30mm Straps with Silicone | Any 30mm Straps, really... | [Ibis Tracker Straps](https://ko-fi.com/s/a23793f04d) |
