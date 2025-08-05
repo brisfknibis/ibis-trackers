@@ -7,6 +7,8 @@ DIY nRF52840 based SlimeVR-compatible trackers based on [Smol Slimes](https://do
 <a href="https://github.com/brisfknibis/ibis-trackers">Ibis Trackers</a> © 2025 by <a href="https://github.com/brisfknibis">Bris Ibis</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 For commercial licensing, contact <vyrovr@gmail.com>.
 
+> [!CAUTION]
+> My trackers are currently being sold on AliExpress. While my design is available as open source, it is not licensed for commercial use. Do not buy them. If you want SlimeVR, buy Official Slimes, from an approved 3rd party seller from the SlimeVR Discord, or build your own.
 ## How it works
 Traditionally, SlimeVR trackers connect to the SlimeVR Server via Wi-Fi. Smol Slimes, also known as nRF Trackers, connect via a USB receiver. They are very power-efficient so they can last for up to 30 hours with a tiny battery. For reference, an official SlimeVR tracker has a 1,200 mAh battery, while these have a 115 mAh battery.. Official Slimes last around 15 hours, while these last around 30 hours, with a battery less than 1/10th the size.
 
