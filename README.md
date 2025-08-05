@@ -63,7 +63,7 @@ If you need to re-pair your tracker(s), follow the docs [here](https://docs.slim
 
 Special thanks to ManicQuinn for their hard work on the [Gremlin Tracker](https://github.com/ManicQuinn/SlimeVR-Gremlin). My case design uses a lot of their sizing for 3D printing on the inside. The style of Ibis Trackers is based on a philosophy that they should be strong, reliable, simple, and easy to make. The exterior is heavily inspired by [Cheesecakes](https://github.com/Sorakage033/SlimeVR-CheeseCake) by Sorakage033. Thanks to everyone who purchased my trackers, and everyone who helped me along the way!
 
-#### License
-The 3D models (.stl/.3mf/.step) are licensed under CC BY-NC 4.0 © 2025 <Bris Ibis>.
-Personal use allowed with attribution. Commercial use (including selling prints or remixes) is prohibited.
+### License
+
+<a href="https://github.com/brisfknibis/ibis-trackers">Ibis Trackers</a> © 2025 by <a href="https://github.com/brisfknibis">Bris Ibis</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 For commercial licensing, contact <vyrovr@gmail.com>.
