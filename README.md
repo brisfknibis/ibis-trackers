@@ -2,6 +2,11 @@
 
 DIY nRF52840 based SlimeVR-compatible trackers based on [Smol Slimes](https://docs.slimevr.dev/smol-slimes/index.html). These docs are a work in progress, and are aimed at those who purchased my trackers. If you don't care for DIY, you can skip to the [setting up your Ibis Trackers](#setting-up-your-ibis-trackers) section.
 
+## License
+<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="30" height="30"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="30" height="30"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="30" height="30"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="30" height="30"><br>
+<a href="https://github.com/brisfknibis/ibis-trackers">Ibis Trackers</a> © 2025 by <a href="https://github.com/brisfknibis">Bris Ibis</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+For commercial licensing, contact <vyrovr@gmail.com>.
+
 ## How it works
 Traditionally, SlimeVR trackers connect to the SlimeVR Server via Wi-Fi. Smol Slimes, also known as nRF Trackers, connect via a USB receiver. They are very power-efficient so they can last for up to 30 hours with a tiny battery. For reference, an official SlimeVR tracker has a 1,200 mAh battery, while these have a 115 mAh battery.. Official Slimes last around 15 hours, while these last around 30 hours, with a battery less than 1/10th the size.
 
@@ -62,8 +67,3 @@ If you need to re-pair your tracker(s), follow the docs [here](https://docs.slim
 ##### Credits
 
 Special thanks to ManicQuinn for their hard work on the [Gremlin Tracker](https://github.com/ManicQuinn/SlimeVR-Gremlin). My case design uses a lot of their sizing for 3D printing on the inside. The style of Ibis Trackers is based on a philosophy that they should be strong, reliable, simple, and easy to make. The exterior is heavily inspired by [Cheesecakes](https://github.com/Sorakage033/SlimeVR-CheeseCake) by Sorakage033. Thanks to everyone who purchased my trackers, and everyone who helped me along the way!
-
-### License
-
-<a href="https://github.com/brisfknibis/ibis-trackers">Ibis Trackers</a> © 2025 by <a href="https://github.com/brisfknibis">Bris Ibis</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="30" height="30"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="30" height="30"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="30" height="30"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="30" height="30">
-For commercial licensing, contact <vyrovr@gmail.com>.
