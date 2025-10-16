@@ -1,6 +1,8 @@
+![](https://dcbadge.limes.pink/api/shield/1163089077386616872)
+
 # 🪶 Ibis Trackers
 
-DIY nRF52840-based, full-body tracking (FBT) trackers, built on [Smol Slimes](https://docs.slimevr.dev/smol-slimes/index.html).
+DIY nRF52840-based, full-body tracking (FBT) trackers, built on [Smol Slimes](https://docs.slimevr.dev/smol-slimes/index.html). Originally created by [Lyall](https://github.com/LyallUlric/Stacked-SmolSlime).
 
 ---
 
@@ -48,8 +50,9 @@ Unlike Wi-Fi SlimeVR trackers, **Smol Slimes (nRF trackers)** connect via a **US
 
 - 🧠 **[ManicQuinn](https://github.com/ManicQuinn/SlimeVR-Gremlin)** – inspiration and internal sizing  
 - 🧱 **[Sorakage033](https://github.com/Sorakage033/SlimeVR-CheeseCake)** – case design inspiration  
-- 🐦 Everyone in the community who tested, broke, fixed, and bought these trackers.
-
+- 🐶 **[Lexie](https://github.com/sctanf)** for their hard work on the firmware
+- 🐺 **[Lyall](https://github.com/LyallUlric/Stacked-SmolSlime) for being the GOAT for Stacked Smol Slimes
+- 🟣 Everyone in the community who tested, broke, fixed, and bought these trackers.
 ---
 
 ## 📜 License
