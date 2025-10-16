@@ -8,7 +8,7 @@ DIY nRF52840-based, full-body tracking (FBT) trackers, built on [Smol Slimes](ht
 
 Unlike Wi-Fi SlimeVR trackers, **Smol Slimes (nRF trackers)** connect via a **USB receiver**, offering:
 - ⚡ Low power consumption
-- 🔋 ~30 hrs battery life with 115 mAh battery
+- 🔋 ~30+ hrs battery life with 120 mAh battery
 - 🖥️ PC connection required for the SlimeVR server
 
 > [!NOTE]
