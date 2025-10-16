@@ -50,9 +50,6 @@ Unlike Wi-Fi SlimeVR trackers, **Smol Slimes (nRF trackers)** connect via a **US
 - 🧱 **[Sorakage033](https://github.com/Sorakage033/SlimeVR-CheeseCake)** – case design inspiration  
 - 🐦 Everyone in the community who tested, broke, fixed, and bought these trackers.
 
-Design philosophy:
-> “Strong. Simple. Reliable. Easy to build.”
-
 ---
 
 ## 📜 License
@@ -62,7 +59,8 @@ Design philosophy:
   <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width="30" height="30">
   <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" width="30" height="30">
   <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" width="30" height="30">
-</a>  
+</a>
+
 Ibis Trackers © 2025 by [Bris Ibis](https://github.com/brisfknibis) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 For **commercial licensing**, contact [vyrovr@gmail.com](mailto:vyrovr@gmail.com).
