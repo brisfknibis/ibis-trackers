@@ -11,12 +11,6 @@ Traditionally, SlimeVR trackers connect to the SlimeVR Server via Wi-Fi. Smol Sl
 > [!NOTE]
 > Smol Slimes require a computer to connect the receiver to and to run the SlimeVR server Software. They are compatible with Standalone Quest VRChat, however, you must have your computer connected to your game via OSC. Be sure to read the [SlimeVR documentation](https://docs.slimevr.dev/) thoroughly.
 
-## DIY - Getting Started
-You're welcome to make your own version, otherwise, you can purchase pre-made Ibis Trackers through my [Ko-Fi store here](https://ko-fi.com/s/f180a946a8).
-
-> [!CAUTION]
-> Smol Slimes are still experimental and they are changing **daily**. Please be patient when setting them up. Take your time, and understand that you will most likely struggle at first. If you need help, join the [SlimeVR Discord](https://discord.gg/2vcdMAtBWe), or [Ibis Trackers Discord](https://discord.gg/NPgz6GH8).
-
 ### Components
 | Component | Variation | Link |
 | --- | --- | --- |
@@ -30,7 +24,7 @@ You're welcome to make your own version, otherwise, you can purchase pre-made Ib
 > [!WARNING]
 > Buy at least 20% more ProMicro boards and IMU modules than you plan to use. If you're making 8 trackers, buy at least 10 etc. You'll probably break some.
 
-[Next, follow the docs here.](https://docs.slimevr.dev/smol-slimes/index.html)
+[To assmeble your trackers, follow the docs here.](https://docs.slimevr.dev/smol-slimes/index.html)
 
 ##### Credits
 Special thanks to ManicQuinn for their hard work on the [Gremlin Tracker](https://github.com/ManicQuinn/SlimeVR-Gremlin). My case design uses a lot of their sizing for 3D printing on the inside. The style of Ibis Trackers is based on a philosophy that they should be strong, reliable, simple, and easy to make. The exterior is heavily inspired by [Cheesecakes](https://github.com/Sorakage033/SlimeVR-CheeseCake) by Sorakage033. Thanks to everyone who purchased my trackers, and everyone who helped me along the way!
