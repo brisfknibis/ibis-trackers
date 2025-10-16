@@ -1,5 +1,13 @@
-![Add me on Discord!](https://dcbadge.limes.pink/api/shield/1163089077386616872?style=flat)
-[![](https://dcbadge.limes.pink/api/server/vyrovr)](https://discord.gg/vyrovr) <-- Join the Vyro VR Discord!
+<table>
+  <tr>
+    <td>Add me on Discord!</td>
+    <td>![](https://dcbadge.limes.pink/api/shield/1163089077386616872?style=flat)</td>
+  </tr>
+  <tr>
+    <td>Join the Vyro VR Discord!</td>
+    <td>[![](https://dcbadge.limes.pink/api/server/vyrovr)](https://discord.gg/vyrovr)</td>
+  </tr>
+</table>
 
 # 🪶 Ibis Trackers
 
