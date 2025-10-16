@@ -1,14 +1,7 @@
-<table>
-  <tr>
-    <td>Add me on Discord!</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Join the Vyro VR Discord!</td>
-    <td>[![](https://dcbadge.limes.pink/api/server/vyrovr)](https://discord.gg/vyrovr)</td>
-  </tr>
-</table>
-![](https://dcbadge.limes.pink/api/shield/1163089077386616872?style=flat)
+| Add me             | Vyro VR Discord       | SlimeVR Discord       |
+| ------------------ | --------------------- | --------------------- |
+| ![](https://dcbadge.limes.pink/api/shield/1163089077386616872?style=flat) | [![](https://dcbadge.limes.pink/api/server/vyrovr?style=flat)](https://discord.gg/vyrovr) | [![](https://dcbadge.limes.pink/api/server/slimevr?style=flat)](https://discord.gg/slimevr) |
+
 # 🪶 Ibis Trackers
 
 DIY nRF52840-based, full-body tracking (FBT) trackers, built on [Smol Slimes](https://docs.slimevr.dev/smol-slimes/index.html). Originally created by [Lyall](https://github.com/LyallUlric/Stacked-SmolSlime).
