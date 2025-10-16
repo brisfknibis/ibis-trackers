@@ -26,45 +26,19 @@ You're welcome to make your own version, otherwise, you can purchase pre-made Ib
 
 | Component | Variation | Link |
 | --- | --- | --- |
-| Nice!Nano Supermini | Alternative | [AliExpress](https://www.aliexpress.com/item/1005007738886550.html) |
+| ProMicro NRF52840 | | [AliExpress](https://www.aliexpress.com/item/1005007738886550.html) |
 | 2 pin Tactile Button (2mm height) | 2.5mm Button (requires Modifying Lid) | [AliExpress](https://www.aliexpress.com/item/1005001302607169.html) |
 | 401230 3.7V 110 mAh Battery | Any similar sized LiPo battery | [AliExpress](https://www.aliexpress.com/item/1005006327425971.html) |
-| KOUNOLAB Module ICM-45686 + Mag | LSM6DSR (cheaper) | [Meia's IMU's](https://store.kouno.xyz/) |
-| eByte E104-BT5040U Receiver | Supermini | [Alibaba.com](https://www.alibaba.com/product-detail/Ebyte-E104-BT5040U-nRF52840-BLE4-2_1600122746292.html) |
-| 30mm Straps with Silicone | Any 30mm Straps, really... | [Ibis Tracker Straps](https://ko-fi.com/s/a23793f04d) |
+| SlimeVR ICM-45686 Mumo Module | [LSM6DSR (cheaper)](https://moffshop.deyta.de/products/lsm6dsr) | [SlimeVR Mumo Breakout Module V1](https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309) |
+| Holyiot nRF52840+PA Receiver | ProMicro NRF52840 | (AliExpress)[https://www.aliexpress.com/item/1005004673179004.html] |
+| 30mm Ibis Tracker Straps with Silicone | Any 30mm Straps, really... | [Ibis Tracker Straps](https://vyrovr.com/product/ibis-tracker-straps/) |
 
 > [!WARNING]
-> Buy at least 20% more components than you plan to use. If you're making 8 trackers, buy at least 10 SuperMini's etc. You'll probably break some.
+> Buy at least 20% more ProMicro boards and IMU modules than you plan to use. If you're making 8 trackers, buy at least 10 etc. You'll probably break some.
 
-[From here, your best bet is to follow the docs here.](https://docs.slimevr.dev/smol-slimes/index.html)
-
-## Setting Up Your Ibis Trackers
-
-> [!NOTE]
-> The following section is aimed specifically at users who purchased Ibis Trackers. If you're building your own, go follow the docs [here](https://docs.slimevr.dev/smol-slimes/index.html).
+[Next, follow the docs here.](https://docs.slimevr.dev/smol-slimes/index.html)
 
 Download and install [SlimeVR Server](https://slimevr.dev/#download).
-
-Your trackers should come paired already, but if they aren't you'll need to download some additional software. [nRF Connect for Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop) and Serial Terminal (install it via nRF Connect for Desktop). 
-
-Plug in your Receiver, and turn on your trackers one at a time. To turn on your tracker, push the button **once**. Multiple presses have different functions.
-
-#### Button functions
-
-- 1 Press: Reset
-- 2 Presses: Calibration
-- 3 Presses: Pairing Mode (if you do this, you may disconnect your tracker and will need to re-pair it using nRF Connect Terminal)
-- 4 Presses: DFU Bootloader (for flashing new firmware)
-- Hold: Deep Sleep mode
-
-After turning your tracker on, it should appear in the SlimeVR server. From here, you can follow the SlimeVR docs and get started!
-
-### Pairing a tracker
-
-If you need to re-pair your tracker(s), follow the docs [here](https://docs.slimevr.dev/smol-slimes/firmware/smol-pairing-and-calibration.html#pairing-mode).
-
-> [!TIP]
-> Enjoy! ;)
 
 ##### Credits
 
