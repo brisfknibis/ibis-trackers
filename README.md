@@ -1,4 +1,4 @@
-![](https://dcbadge.limes.pink/api/shield/1163089077386616872?style=flat) <-- Add me on Discord!
+![Add me on Discord!](https://dcbadge.limes.pink/api/shield/1163089077386616872?style=flat)
 [![](https://dcbadge.limes.pink/api/server/vyrovr)](https://discord.gg/vyrovr) <-- Join the Vyro VR Discord!
 
 # 🪶 Ibis Trackers
