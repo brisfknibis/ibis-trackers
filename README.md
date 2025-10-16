@@ -1,6 +1,6 @@
 # 🪶 Ibis Trackers
 
-DIY nRF52840-based, **:contentReference[oaicite:0]{index=0}-compatible** full-body tracking (FBT) trackers, built on [Smol Slimes](https://docs.slimevr.dev/smol-slimes/index.html).
+DIY nRF52840-based, full-body tracking (FBT) trackers, built on [Smol Slimes](https://docs.slimevr.dev/smol-slimes/index.html).
 
 ---
 
